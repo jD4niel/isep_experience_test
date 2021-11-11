@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_partner_experience,isep_practice_test.partner_experience,model_partner_experience,base.group_user,1,1,1,1
+access_add_skills_wizard,isep_practice_test.add_skills_wizard,model_add_skills_wizard,base.group_user,1,1,1,1

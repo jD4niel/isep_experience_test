@@ -1,0 +1,39 @@
+<odoo>
+    <data>
+        <record id="add_skills_wizard_form_view" model="ir.ui.view">
+            <field name="name">add_skills_wizard_form_view</field>
+            <field name="model">add.skills.wizard</field>
+            <field name="arch" type="xml">
+                <form string="Add Skills">
+                    <group>
+                        <field name="partner_id" />
+
+                        <field name="skill_ids" context="{'default_partner_id' : partner_id}">
+                            <tree editable="bottom" create="0" delete="0">
+                                <field name="name" />
+                                <field name="partner_id" />
+                                <field name="skill" />
+                                <field name="experience_year" />
+                                <field name="experience_percentage" />
+                                <field name="company_id" />
+                            </tree>
+                        </field>
+                    </group>
+                    <footer>
+                        <button name="action_add" string="Agregar" type="object"/>
+                        <button special="cancel" string="Cerrar" type="object"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_view_production_plan" model="ir.actions.act_window">
+            <field name="name">Add Skills</field>
+            <field name="res_model">add.skills.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="target">new</field>
+        </record>
+
+    </data>
+</odoo>

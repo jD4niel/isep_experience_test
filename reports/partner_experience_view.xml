@@ -1,0 +1,40 @@
+<odoo>
+    <data>
+        <record id="partner_experience_format" model="report.paperformat">
+            <field name="name">Custom Paper Name</field>
+            <field name="default" eval="True" />
+            <field name="format">Letter</field>
+            <field name="page_height">0</field>
+            <field name="page_width">0</field>
+            <field name="orientation">Portrait</field>
+            <field name="margin_top">10</field>
+            <field name="margin_bottom">10</field>
+            <field name="margin_left">10</field>
+            <field name="margin_right">10</field>
+            <field name="header_line" eval="False" />
+            <field name="header_spacing">10</field>
+            <field name="dpi">90</field>
+        </record>
+        
+        <record id="experience_report_print" model="ir.actions.report">
+            <field name="name">Partner experience report</field>
+            <field name="model">res.partner</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">isep_practice_test.experience_pdf</field>
+            <field name="report_file">isep_practice_test.experience_pdf</field>
+            <field name="paperformat_id" ref="isep_practice_test.partner_experience_format"/>
+        </record>
+
+        <record id="print_experience_report" model="ir.actions.server">
+            <field name="name">Experience Report</field>
+            <field name="type">ir.actions.server</field>
+            <field name="model_id" ref="base.model_res_partner"/>
+            <field name="state">code</field>
+            <field name="code">
+                action = model.print_experience_report()
+            </field>
+        </record>
+
+         <menuitem name="Partner experience report" id="partner_menu_experience"  parent="isep_practice_test.main_menu_experience" sequence="1" action="print_experience_report"/>
+    </data>
+</odoo>

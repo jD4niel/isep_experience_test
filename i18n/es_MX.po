@@ -1,0 +1,173 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* isep_practice_test
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-11 04:20+0000\n"
+"PO-Revision-Date: 2021-11-10 22:23-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_MX\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: isep_practice_test
+#: model:ir.actions.act_window,name:isep_practice_test.action_view_production_plan
+#: model_terms:ir.ui.view,arch_db:isep_practice_test.add_skills_wizard_form_view
+msgid "Add Skills"
+msgstr "Agregar Habilidades"
+
+#. module: isep_practice_test
+#: model:ir.model,name:isep_practice_test.model_add_skills_wizard
+msgid "Add multiple skills to Partner"
+msgstr "Asignar múltiples habilidades a un contacto"
+
+#. module: isep_practice_test
+#: model_terms:ir.ui.view,arch_db:isep_practice_test.add_skills_wizard_form_view
+msgid "Agregar"
+msgstr ""
+
+#. module: isep_practice_test
+#: model_terms:ir.ui.view,arch_db:isep_practice_test.experience_inherit_partner_form
+msgid "Asign Skills"
+msgstr "Asignar habilidades"
+
+#. module: isep_practice_test
+#: model_terms:ir.ui.view,arch_db:isep_practice_test.add_skills_wizard_form_view
+msgid "Cerrar"
+msgstr ""
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_partner_experience__company_id
+msgid "Company"
+msgstr "Compañía"
+
+#. module: isep_practice_test
+#: model:ir.model,name:isep_practice_test.model_res_partner
+#: model:ir.model.fields,field_description:isep_practice_test.field_partner_experience__partner_id
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: isep_practice_test
+#: model:ir.actions.act_window,name:isep_practice_test.action_view_experience_access
+#: model_terms:ir.ui.view,arch_db:isep_practice_test.experience_access_tree_view
+msgid "Contact Experience"
+msgstr "Experiencia del contacto"
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_add_skills_wizard__create_uid
+#: model:ir.model.fields,field_description:isep_practice_test.field_partner_experience__create_uid
+msgid "Created by"
+msgstr "Creado for"
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_add_skills_wizard__create_date
+#: model:ir.model.fields,field_description:isep_practice_test.field_partner_experience__create_date
+msgid "Created on"
+msgstr "Creado "
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_add_skills_wizard__display_name
+#: model:ir.model.fields,field_description:isep_practice_test.field_partner_experience__display_name
+#: model:ir.model.fields,field_description:isep_practice_test.field_report_isep_practice_test_experience_pdf__display_name
+#: model:ir.model.fields,field_description:isep_practice_test.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nombre en pantalla"
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_add_skills_wizard__skill_ids
+#: model:ir.model.fields,field_description:isep_practice_test.field_res_partner__experience_ids
+#: model:ir.model.fields,field_description:isep_practice_test.field_res_users__experience_ids
+#: model:ir.ui.menu,name:isep_practice_test.main_menu_experience
+msgid "Experience"
+msgstr "Experiencia"
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_partner_experience__experience_percentage
+msgid "Experience Percentage"
+msgstr "Porcentaje de experiencia"
+
+#. module: isep_practice_test
+#: model:ir.actions.server,name:isep_practice_test.print_experience_report
+msgid "Experience Report"
+msgstr "Informe de experiencia"
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_partner_experience__experience_year
+msgid "Experience Years"
+msgstr "Años de experiencia"
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_add_skills_wizard__id
+#: model:ir.model.fields,field_description:isep_practice_test.field_partner_experience__id
+#: model:ir.model.fields,field_description:isep_practice_test.field_report_isep_practice_test_experience_pdf__id
+#: model:ir.model.fields,field_description:isep_practice_test.field_res_partner__id
+msgid "ID"
+msgstr ""
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_add_skills_wizard____last_update
+#: model:ir.model.fields,field_description:isep_practice_test.field_partner_experience____last_update
+#: model:ir.model.fields,field_description:isep_practice_test.field_report_isep_practice_test_experience_pdf____last_update
+#: model:ir.model.fields,field_description:isep_practice_test.field_res_partner____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_add_skills_wizard__write_uid
+#: model:ir.model.fields,field_description:isep_practice_test.field_partner_experience__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_add_skills_wizard__write_date
+#: model:ir.model.fields,field_description:isep_practice_test.field_partner_experience__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_partner_experience__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_add_skills_wizard__partner_id
+#: model_terms:ir.ui.view,arch_db:isep_practice_test.experience_pdf
+msgid "Partner"
+msgstr "Contacto"
+
+#. module: isep_practice_test
+#: model:ir.model,name:isep_practice_test.model_partner_experience
+#: model:ir.model,name:isep_practice_test.model_report_isep_practice_test_experience_pdf
+msgid "Partner Experience"
+msgstr "Experiencia del contacto"
+
+#. module: isep_practice_test
+#: model:ir.actions.report,name:isep_practice_test.experience_report_print
+#: model:ir.ui.menu,name:isep_practice_test.partner_menu_experience
+msgid "Partner experience report"
+msgstr "Reporte de experiencia"
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_partner_experience__skill
+msgid "Skill"
+msgstr "Habilidad"
+
+#. module: isep_practice_test
+#: model:ir.model.fields,field_description:isep_practice_test.field_res_partner__skills_count
+#: model:ir.model.fields,field_description:isep_practice_test.field_res_users__skills_count
+#: model_terms:ir.ui.view,arch_db:isep_practice_test.experience_pdf
+msgid "Skill count"
+msgstr "Número de habilidades"
+
+#. module: isep_practice_test
+#: model:ir.ui.menu,name:isep_practice_test.skills_menu_experience
+#: model_terms:ir.ui.view,arch_db:isep_practice_test.experience_pdf
+msgid "Skills"
+msgstr "Habilidades"

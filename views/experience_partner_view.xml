@@ -1,0 +1,29 @@
+<odoo>
+    <data>
+        <record id="experience_access_tree_view" model="ir.ui.view">
+            <field name="name">experience_access_tree_view</field>
+            <field name="model">partner.experience</field>
+            <field name="arch" type="xml">
+                <tree string="Contact Experience" editable="bottom">
+                    <field name="name" />
+                    <field name="partner_id" />
+                    <field name="skill" />
+                    <field name="experience_year" />
+                    <field name="experience_percentage" />
+                    <field name="company_id" />
+                </tree>
+            </field>
+        </record>
+        
+        <record id="action_view_experience_access" model="ir.actions.act_window">
+            <field name="name">Contact Experience</field>
+            <field name="res_model">partner.experience</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="experience_access_tree_view"/>
+            <field name="target">current</field>
+        </record>
+        
+        <menuitem name="Experience" id="main_menu_experience"  parent="contacts.menu_contacts" sequence="5" />
+        <menuitem name="Skills" id="skills_menu_experience"  parent="isep_practice_test.main_menu_experience" sequence="1" action="action_view_experience_access"/>
+    </data>
+</odoo>
